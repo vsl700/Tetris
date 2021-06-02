@@ -13,7 +13,7 @@ namespace Tetris
         static Display display;
         static List<char[]> pieceRows; //LinkedList would be much better here, but it doesn't allow using indexers, which I actually need a lot!
 
-        static Piece currentPiece, nextPiece;
+        static Piece currentPiece/*, nextPiece*/;
 
         static int speed = 1000;
 
